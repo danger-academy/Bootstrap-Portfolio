@@ -103,7 +103,8 @@ nav a:first-child {
 
 /*** portfolio ***/
 .work {
-  width: 100%;
+  width: 400px;
+  height: 200px
   position: relative;
   margin: 20px 0 25px;
 }
@@ -111,7 +112,6 @@ nav a:first-child {
   margin-right: 40px;
 }
 .work img {
-  width: 200px;
   border: 0 none;
   opacity: 0.8;
 }
