@@ -1,6 +1,7 @@
 body {
   padding-top: 54px;
   background-color: slategrey;
+  font-family: 'Libre Franklin', sans-serif;
 }
 .jumbotron{
   padding-top: 20px;
