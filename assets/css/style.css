@@ -1,16 +1,14 @@
 body {
   padding-top: 54px;
-  background-image: url(../images/bg.jpg);background-repeat:repeat;
+  background-image: radial-gradient(#3E5589,#030B20);
   font-family: 'Libre Franklin', sans-serif;
 }
 .jumbotron{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.display-3 {
-}
 #callbutton {
-  background-color: ;
+  background-color: #3E5589;
 }
 
 @media (min-width: 992px) {
