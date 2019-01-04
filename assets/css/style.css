@@ -7,6 +7,10 @@ body {
 }
 .navbar {
   background-color: #030B20;
+  padding: 0px;
+}
+#subtitle {
+  font-size: small;
 }
 .jumbotron{
   background-color: #87acfdb7;
