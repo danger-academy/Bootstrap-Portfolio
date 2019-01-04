@@ -1,15 +1,18 @@
 body {
   padding-top: 54px;
-  background-image: radial-gradient(#3E5589,#030B20);
+  background-image: radial-gradient(#8dacf5,#030B20);
   font-family: 'Libre Franklin', sans-serif;
 }
+.navbar {
+  background-color: #030B20;
+}
 .jumbotron{
-  background-color: rgba(135, 172, 253, 0.719);
+  background-color: #87acfdb7;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 .card {
-  background-color: rgba(135, 172, 253, 0.719);
+  background-color: #87acfdb7;
 }
 .lead {
   font-size: medium;
@@ -18,7 +21,10 @@ body {
   font-size: medium;
 }
 .btn {
-  background-color: #3E5589;
+  background-color: #3e5589;
+}
+.py-3 {
+  background-color: #030B20;
 }
 
 @media (min-width: 992px) {
