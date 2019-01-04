@@ -1,6 +1,8 @@
 body {
   padding-top: 54px;
-  background-image: radial-gradient(#8dacf5,#030B20);
+  background-color: #030B20;
+  background-image: url(../images/concrete-wall-2.png);
+  background-attachment: fixed;
   font-family: 'Libre Franklin', sans-serif;
 }
 .navbar {
@@ -11,8 +13,12 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.display-3 {
+  font-size: xx-large;
+}
 .card {
   background-color: #87acfdb7;
+  min-height: 0px !important;
 }
 .lead {
   font-size: medium;
