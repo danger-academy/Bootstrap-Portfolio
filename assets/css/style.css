@@ -20,15 +20,26 @@ body {
 .display-3 {
   font-size: xx-large;
 }
+#rt-pic {
+  height: 80px;
+  width: 100px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+}
 .sm-link-images {
 	max-width: 20%;
 	max-height: 50px;
 	text-align: center;
 	padding-bottom: 10px;
 }
+#social {
+  padding: 0px;
+}
 .connect {
   max-width: 30px;
   max-height: 30px;
+  margin-right: 25px;
 }
 .card {
   background-color: #87acfdb7;
@@ -42,9 +53,9 @@ body {
 }
 #height {
   align-self: center;
-  max-height: 250px;
+  height: 200px;
   max-width: 80%;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .btn {
   background-color: #3e5589;
