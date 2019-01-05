@@ -30,6 +30,9 @@ body {
 .card-text {
   font-size: medium;
 }
+#height {
+  max-height: 250px;
+}
 .btn {
   background-color: #3e5589;
 }
