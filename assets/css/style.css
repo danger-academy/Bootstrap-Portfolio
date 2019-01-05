@@ -20,6 +20,16 @@ body {
 .display-3 {
   font-size: xx-large;
 }
+.sm-link-images {
+	max-width: 20%;
+	max-height: 50px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.connect {
+  max-width: 30px;
+  max-height: 30px;
+}
 .card {
   background-color: #87acfdb7;
   min-height: 0px !important;
