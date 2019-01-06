@@ -7,7 +7,11 @@ body {
 }
 .navbar {
   background-color: #030B20;
-  padding: 0px 20px;
+  padding: 5px 20px;
+  max-height: 60px;
+}
+.navbar-brand {
+  margin-top: 10px;
 }
 #subtitle {
   font-size: small;
@@ -26,6 +30,7 @@ body {
   float: left;
   margin-right: 5px;
   margin-top: 5px;
+  border-radius: 5px;
 }
 .sm-link-images {
 	max-width: 20%;
@@ -44,6 +49,7 @@ body {
 .card {
   background-color: #87acfdb7;
   min-height: 0px !important;
+  padding: 5px;
 }
 .lead {
   font-size: medium;
@@ -53,9 +59,10 @@ body {
 }
 #height {
   align-self: center;
-  height: 200px;
-  max-width: 80%;
+  max-height: 250px;
+  max-width: 300px;
   margin-top: 10px;
+  border-radius: 5px;
 }
 .btn {
   background-color: #3e5589;
