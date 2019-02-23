@@ -1,36 +1,23 @@
 {
-    "title": "Heroic Features",
-    "name": "startbootstrap-heroic-features",
-    "version": "4.1.1",
-    "description": "An HTML template with a hero heading and feature cards built with Bootstrap",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
-    ],
-    "homepage": "https://startbootstrap.com/template-overviews/heroic-features",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-heroic-features/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-heroic-features.git"
-    },
-    "dependencies": {
-        "bootstrap": "4.1.1",
-        "jquery": "3.3.1"
-    },
-    "devDependencies": {
-        "browser-sync": "2.24.5",
-        "gulp": "^3.9.1"
-    }
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "https://danger-academy.github.io/Bootstrap-Portfolio/\r ***\r ### Project Description:\r Highlight my completed work as a full stack developer.\r ***",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danger-academy/Bootstrap-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danger-academy/Bootstrap-Portfolio/issues"
+  },
+  "homepage": "https://github.com/danger-academy/Bootstrap-Portfolio#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  }
 }
