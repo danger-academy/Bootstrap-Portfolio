@@ -1,7 +1,7 @@
 body {
   padding-top: 54px;
   background-color: #030B20;
-  background-image: url(../images/concrete-wall-2.png);
+  /* background-image: url(../images/concrete-wall-2.png); */
   background-attachment: fixed;
   font-family: 'Libre Franklin', sans-serif;
 }
@@ -13,6 +13,10 @@ body {
 .navbar-brand {
   margin-top: 10px;
 }
+#navbarResponsive {
+  background-color: rgb(3, 11, 32, .75);
+  
+}
 #subtitle {
   font-size: small;
 }
@@ -23,14 +27,16 @@ body {
 }
 .display-3 {
   font-size: xx-large;
+  display: inline;
 }
 #rt-pic {
   height: 80px;
-  width: 100px;
+  width: 80px;
   float: left;
   margin-right: 5px;
   margin-top: 5px;
   border-radius: 5px;
+  opacity: .7;
 }
 .sm-link-images {
 	max-width: 20%;
@@ -39,7 +45,8 @@ body {
 	padding-bottom: 10px;
 }
 #social {
-  padding: 0px;
+  padding-left: 15px;
+  display: inline;
 }
 .connect {
   max-width: 30px;

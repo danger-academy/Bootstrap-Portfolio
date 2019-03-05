@@ -2,5 +2,5 @@
 https://danger-academy.github.io/Portfolio/
 ***
 ### Project Description:
-Highlight my completed work as a full stack developer.
+Highlight my web dvelopment projects, from CWRU Coding Boot Camp and beyond.
 
