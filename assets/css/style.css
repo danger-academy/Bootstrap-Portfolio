@@ -24,6 +24,7 @@ body {
   background-color: #87acfdb7;
   padding-top: 10px;
   padding-bottom: 10px;
+  min-height: 100px;
 }
 .display-3 {
   font-size: xx-large;
