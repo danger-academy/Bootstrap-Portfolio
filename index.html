@@ -8,15 +8,15 @@
   <meta name="description" content="full-stack web development portfolio">
   <meta name="author" content="robert tarkenton">
 
-  <title>Tarkenton, Robert</title>
+  <title>Tarkenton, Robert | Web Dev Portfolio</title>
 
   <!-- Reset CSS -->
   <link rel="stylesheet" href="assets/css/reset.css">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- Local CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -30,12 +30,12 @@
       <a class="navbar-brand" href="#">Robert Tarkenton
         <p id="subtitle">full stack developer</p>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto" id="navdrop">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
@@ -60,7 +60,9 @@
 
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4">
-      <h2 class="display-3"><img id="rt-pic" src="./assets/images/profile002.png"> Hello.
+      <!-- Image and greeting -->
+      <div class="display-3"><img id="rt-pic" src="./assets/images/profile002.png">Hello.
+
         <!-- Social Media -->
         <div id="social" class="card-body">
           <a href="https://www.linkedin.com/in/robert-tarkenton-969999112/" target="_blank">
@@ -75,59 +77,89 @@
             <img class="connect" src="./assets/images/pdf.png" alt="pdf resume">
           </a>
         </div>
-      </h2>
-      <p class="lead"><br><br><br>I have just the skillset you're looking for:
-          <ul>
-              <li>MERN Stack (MongoDB, Express, React, Node.js)</li>
-              <li>MySQL</li>
-              <li>Sequelize</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-    </header>
+      </div>
 
-    <!-- Page Features -->
-    <div class="row text-center">
+      <hr />
+      <br>
+      <!-- Skillset Lists -->
+      <div class="row text-center">
 
-      <div class="col-lg-3 col-md-6 mb-4">
-        <div class="card">
-          <img id="height" class="card-img-top" src="assets/images/JiC02.png" alt="logo for Just inCASE app">
-          <div class="card-body">
-            <h4 class="card-title">Just inCASE</h4>
-            <p class="card-text">Designed for visitors and new students of Case Western Reserve University, providing
-              on-campus navigation and weather.</p>
+        <div class="col-6 col-md-3" id="skill-sep">
+          <div class="skillset">
+            <div class="card-body">
+              <h4 class="card-title">Front End</h4>
+              <hr />
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>- Sass</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>React</li>
+              </ul>
+            </div>
           </div>
-          <div class="card-footer">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Check It
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="https://LauraShortridge.github.io/Group-Project/">Go to Site</a>
-                <a class="dropdown-item" href="https://www.github.com/LauraShortridge/Group-Project/">View GitHub code</a>
-              </div>
+        </div>
+
+        <div class="col-6 col-md-3" id="skill-sep">
+          <div class="skillset">
+            <div class="card-body">
+              <h4 class="card-title">Back End</h4>
+              <hr />
+              <ul class="card-text">
+                <li>MySQL</li>
+                <li>- Sequelize</li>
+                <li>MongoDB</li>
+                <li>- Mongoose</li>
+                <li>Firebase</li>
+                <li>Node.js</li>
+                <li>Express</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3" id="skill-sep">
+          <div class="skillset">
+            <div class="card-body">
+              <h4 class="card-title">Dev Tools</h4>
+              <hr />
+              <ul class="card-text">
+                <li>Version Control</li>
+                <li>- Git / GitHub</li>
+                <li>Postman</li>
+                <li>Heroku</li>
+                <li>Node.js</li>
+                <li>Express</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
 
+    </header>
+
+    <!-- Project cards -->
+    <div class="row text-center">
+
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <img id="height" class="card-img-top" src="assets/images/deardoctor.png" alt="">
+          <img id="height" class="card-img-top" src="assets/images/scrape.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Dear Doctor</h4>
-            <p class="card-text">Mobile-first web app with accessible UI and MySQL/Sequelize back-end. Allows for users to track medical symptoms along with food and drink intake, to look for correlations.</p>
+            <h4 class="card-title">Scrapin' with Mongo</h4>
+            <p class="card-text">Web app which scrapes NPR for new articles, and allows users to save and add notes to
+              each. Utilizes Nodejs, Express, MongoDB and Mongoose.</p>
           </div>
           <div class="card-footer">
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Check It
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="https://dear-doctor.herokuapp.com/">Go to Site</a>
-                <a class="dropdown-item" href="https://github.com/danger-academy/Dear-Doctor">View GitHub code</a>
+                <a class="dropdown-item" href="https://tranquil-wildwood-12577.herokuapp.com/">Go to Site</a>
+                <a class="dropdown-item" href="https://github.com/danger-academy/NewsScraper">View GitHub code</a>
               </div>
             </div>
           </div>
@@ -139,12 +171,13 @@
           <img id="height" class="card-img-top" src="assets/images/playdate.png" alt="">
           <div class="card-body">
             <h4 class="card-title">Play Date</h4>
-            <p class="card-text">Mobile-first app which helps parents to find suitable families for play dates, based on a simple questionnaire.</p>
+            <p class="card-text">Mobile-first app which helps parents to find suitable families for play dates, based on
+              a simple questionnaire.</p>
           </div>
           <div class="card-footer">
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Check It
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -158,20 +191,44 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
-          <img id="height" class="card-img-top" src="assets/images/trivia.png" alt="">
+          <img id="height" class="card-img-top" src="assets/images/goo-boo.png" alt="">
           <div class="card-body">
-            <h4 class="card-title">Music Trivia</h4>
-            <p class="card-text">A timed trivia game, featuring excellent music and, uh, extra snark.</p>
+            <h4 class="card-title">Ye Olde Book Search</h4>
+            <p class="card-text">React app featuring MongoDB, Express, Nodejs, and utilizing Google Books API to find
+              and save selected books.</p>
           </div>
           <div class="card-footer">
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Check It
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="https://danger-academy.github.io/TriviaGame/">Go to Site</a>
-                <a class="dropdown-item" href="https://www.github.com/danger-academy/TriviaGame/">View GitHub code</a>
+                <a class="dropdown-item" href="https://goo-boo-sea.herokuapp.com/">Go to Site</a>
+                <a class="dropdown-item" href="https://www.github.com/danger-academy/goo-boo-sea/">View GitHub code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img id="height" class="card-img-top" src="assets/images/goc-snap.png" alt="logo for Just inCASE app">
+          <div class="card-body">
+            <h4 class="card-title">Game of Clicks</h4>
+            <p class="card-text">React-based memory game. Players can click each GoT character only once. Can you get
+              all twelve?</p>
+          </div>
+          <div class="card-footer">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Check It
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="https://danger-academy.github.io/game-of-clicks/">Go to Site</a>
+                <a class="dropdown-item" href="https://github.com/danger-academy/game-of-clicks">View GitHub code</a>
               </div>
             </div>
           </div>
